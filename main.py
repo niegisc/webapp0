@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'How was lunch?'
+    return 'Bio break!'
 
 app.run(host='0.0.0.0', port=81)
